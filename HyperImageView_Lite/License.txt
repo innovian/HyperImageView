@@ -1,0 +1,15 @@
+** HyperImageView 1.0 - Lite Version
+** Copyright (C) Hamidreza Vakilian - All Rights Reserved
+
+** This work is licensed under a binpress commercial License. To view a copy of this license, visit http://www.binpress.com/license/view/l/ef565e5081020812550502852790e079
+
+** License Summary **
+	License does not expire.
+	Can be distributed in 99 projects
+	Can be distributed and / or packaged as a code or binary product (sublicensed)
+	Non-commercial use only
+	Cannot modify source-code for any purpose (cannot create derivative works)
+	Attribution to software creator must be made as specified:
+		Please include a link to hyperimageview.com in your distributions.
+
+** Permissions beyond the scope of this license may be available at http://www.hyperimageview.com/contact.php by sending your proposal.

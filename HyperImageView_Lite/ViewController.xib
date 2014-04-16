@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HyperImageView.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdR-bj-AyX">
+                    <rect key="frame" x="31" y="108" width="258" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5G-kv-JRW">
+                    <rect key="frame" x="26" y="-131" width="31" height="210"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="31" id="Dwe-G5-gFR"/>
+                        <constraint firstAttribute="height" constant="210" id="iMd-Y6-VwM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-zb-X6U">
+                    <rect key="frame" x="0.0" y="510" width="320" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nz2-q8-0Tx">
+                            <rect key="frame" x="3" y="3" width="314" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© 2013 by H.Vakilian" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcF-hK-mbn">
+                                    <rect key="frame" x="38" y="8" width="150" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tT4-6l-RWA">
+                                    <rect key="frame" x="236" y="6" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="LWJ-KD-kna"/>
+                                        <constraint firstAttribute="width" constant="40" id="WxI-RG-A9z"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="twitter.png"/>
+                                    <connections>
+                                        <action selector="twitterButton:" destination="-1" eventType="touchUpInside" id="bgD-Ed-Qc8"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vs-Bm-9WE">
+                                    <rect key="frame" x="189" y="6" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="VVy-Yd-LgE"/>
+                                        <constraint firstAttribute="width" constant="40" id="ZlH-3V-nX5"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" image="facebook.png"/>
+                                    <connections>
+                                        <action selector="faceBookButton:" destination="-1" eventType="touchUpInside" id="H2G-gW-DiF"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Rights Reserved." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5S-Kg-wfP">
+                                    <rect key="frame" x="43" y="26" width="150" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="tT4-6l-RWA" firstAttribute="top" secondItem="Nz2-q8-0Tx" secondAttribute="top" constant="6" id="4Im-JL-axQ"/>
+                                <constraint firstAttribute="trailing" secondItem="tT4-6l-RWA" secondAttribute="trailing" constant="38" id="NbG-up-SM8"/>
+                                <constraint firstAttribute="centerY" secondItem="8Vs-Bm-9WE" secondAttribute="centerY" id="OEW-2N-4wL"/>
+                                <constraint firstItem="tT4-6l-RWA" firstAttribute="leading" secondItem="8Vs-Bm-9WE" secondAttribute="trailing" constant="7" id="TcL-Hb-a7T"/>
+                                <constraint firstAttribute="width" constant="314" id="Xnz-DC-FzN"/>
+                                <constraint firstAttribute="centerY" secondItem="tT4-6l-RWA" secondAttribute="centerY" id="scm-eP-GAg"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="Nz2-q8-0Tx" secondAttribute="centerY" id="OYq-e5-AVF"/>
+                        <constraint firstAttribute="height" constant="58" id="TRx-B5-aqT"/>
+                        <constraint firstAttribute="centerX" secondItem="Nz2-q8-0Tx" secondAttribute="centerX" id="bfI-7h-CL7"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb7-85-EaP">
+                    <rect key="frame" x="75" y="179" width="171" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="171" id="aWi-8f-b1G"/>
+                    </constraints>
+                    <state key="normal" title="Test HyperImageView">
+                        <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="button_HyperImageView:" destination="-1" eventType="touchUpInside" id="KWd-KL-JFb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doR-pO-BAx">
+                    <rect key="frame" x="75" y="217" width="171" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="171" id="fNz-Mb-xVD"/>
+                    </constraints>
+                    <state key="normal" title="Test UIImageView">
+                        <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="button_UIImageView:" destination="-1" eventType="touchUpInside" id="Qrq-Vd-RFG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jb7-85-EaP" firstAttribute="top" secondItem="bdR-bj-AyX" secondAttribute="bottom" constant="35" id="3RF-G8-8t0"/>
+                <constraint firstItem="Kqe-zb-X6U" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="3RM-vj-All"/>
+                <constraint firstItem="bdR-bj-AyX" firstAttribute="top" secondItem="y5G-kv-JRW" secondAttribute="bottom" constant="29" id="AUc-Kr-mQ8"/>
+                <constraint firstAttribute="bottom" secondItem="Kqe-zb-X6U" secondAttribute="bottom" id="AzA-BC-byp"/>
+                <constraint firstAttribute="centerX" secondItem="jb7-85-EaP" secondAttribute="centerX" id="IYs-R0-aiw"/>
+                <constraint firstAttribute="centerX" secondItem="bdR-bj-AyX" secondAttribute="centerX" id="LUm-8W-sce"/>
+                <constraint firstItem="doR-pO-BAx" firstAttribute="top" secondItem="jb7-85-EaP" secondAttribute="bottom" constant="8" id="bb2-2k-Y18"/>
+                <constraint firstAttribute="bottom" secondItem="Kqe-zb-X6U" secondAttribute="bottom" id="c6Z-ad-lIp"/>
+                <constraint firstAttribute="trailing" secondItem="Kqe-zb-X6U" secondAttribute="trailing" id="dKY-H5-10s"/>
+                <constraint firstAttribute="centerX" secondItem="doR-pO-BAx" secondAttribute="centerX" id="iAj-2g-IEY"/>
+                <constraint firstItem="y5G-kv-JRW" firstAttribute="top" secondItem="1" secondAttribute="top" constant="-131" id="sc7-AI-FYa"/>
+                <constraint firstItem="y5G-kv-JRW" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="26" id="u7q-uK-Fda"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebook.png" width="512" height="512"/>
+        <image name="twitter.png" width="512" height="512"/>
+    </resources>
+</document>
