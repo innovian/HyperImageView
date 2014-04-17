@@ -8,7 +8,9 @@ by Hamidreza Vakilian
 ![Screenshot](http://www.infracyber.com/private/github/HyperImageView/screenshot.jpg)
 
 ###Summary
-**HyperImageView** is an alternative for UIImageView where the developer tends to display images (preferably large ones) repeatedly in his application. HyperImageView converts an image into raw pixel data and saves it on the disk with hyperIMG extension (I name this hyperIMG file, cached image file). Then whenever the developer wants to load the corresponding image, HyperImageView reads the hyperIMG file from disk and DIRECTLY loads it into the video memory. That's why HyperImageView has some significant superiorities over UIImageView in many cases. Here I introduce this control:
+**HyperImageView** is an easy-to-use iOS user interface control and an alternative for UIImageView where the developer wants to display images with high performance. It converts an image into raw pixel data and saves it on the disk. Afterward, whenever the image needs to be rendered, HyperImageView reads the cached file from the disk and directly loads it into the video memory. Therefore, HyperImageView can render images up to 30 times faster than UIImageView while uses 10 times less RAM (at the expense of a reasonable disk space). Also the rendering task takes place in a background thread and it never blocks user interaction even for very large images.
+
+Here I introduce this control:
 
 1- HyperImageView is *thread safe* which means it can render the image in a background thread hence it does not block UI interaction, while UIImageView renders the image on the main thread, so it blocks the user interaction while it's rendering, and even gets worse if the image is a large one (e.g. > 500x500).
 
