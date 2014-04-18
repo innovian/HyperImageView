@@ -1,11 +1,12 @@
 HyperImageView
 ===========
 ###### Fastest Image Drawing Control in iOS
-by Hamidreza Vakilian
 
 ------
 
-![Screenshot](http://www.infracyber.com/private/github/HyperImageView/screenshot.jpg)
+![](http://www.infracyber.com/private/github/HyperImageView/screenshot.jpg)
+
+# ***PLEASE TEST ON REAL DEVICE TO SEE THE DIFFERENCE***
 
 ###Summary
 **HyperImageView** is an easy-to-use iOS user interface control and an alternative for UIImageView where the developer wants to display images with high performance. It converts an image into raw pixel data and saves it on the disk. Afterward, whenever the image needs to be rendered, HyperImageView reads the cached file from the disk and directly loads it into the video memory. Therefore, HyperImageView can render images up to 30 times faster than UIImageView while uses 10 times less RAM (at the expense of a reasonable disk space). Also the rendering task takes place in a background thread and it never blocks user interaction even for very large images.
